@@ -188,7 +188,7 @@ class Saanp_Seedhi:
               on the number 100. If they fails to do so, then the player needs
               to roll the die again in the next turn. For eg, if a player is
               on the number 98 and the die roll shows the number 4, then they
-              cannot move its piece until they gets a 2 to win or 1 to be on
+              cannot move its piece until they get a 2 to win or 1 to be on
               99th number.
         """
         print(message)
