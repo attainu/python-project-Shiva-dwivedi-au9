@@ -171,17 +171,25 @@ class Saanp_Seedhi:
         message = """
         Welcome to Saanp Seedhi.
 
-        Rules:
-        1. At the start both the players are at starting position i.e. 0.
-           Roll the dice turn by turn.
-           Move to the number of spaces shown on the dice.
-        2. If you reach at the bottom of a ladder,
-           you can climb up to the top of the ladder.
-        3. If you reach on the head of a snake,
-           you must go down to the bottom of the snake.
-        4. The first to reach the FINAL position is the winner.
-        5. Press enter to roll the dice.
-
+        GAME RULES
+           1. When a piece comes on a number which lies on the head of a snake,
+              then the piece will land below to the tail of the snake that can
+              also be said as an unlucky move.
+           2. If somehow the piece falls on the ladder base, it will climb to
+              the top of the ladder (which is considered to be a lucky move).
+           3. Whereas if a player lands on the tail of the snake or top of a
+              ladder, the player will remain in the same spot (same number)
+              and will not get affected by any particular rule.
+              The players can never move down ladders.
+           4. The pieces of different players can overlap each other without
+              knocking out anyone.There is no concept of knocking out by
+              opponent players in Snakes and Ladders.
+           5. To win, the player needs to roll the exact number of die to land
+              on the number 100. If they fails to do so, then the player needs
+              to roll the die again in the next turn. For eg, if a player is
+              on the number 98 and the die roll shows the number 4, then they
+              cannot move its piece until they gets a 2 to win or 1 to be on
+              99th number.
         """
         print(message)
 
