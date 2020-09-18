@@ -56,6 +56,10 @@ class Saanp_Seedhi:
                 self.pl_name = input("Name of player " + str(_ + 1) + " : ")
                 self.players.append(self.pl_name)
 
+            print("\nMatch will be played between: ", end=" ")
+            print(",".join(self.players[:len(self.players)-1]), end=" ")
+            print("and", self.players[-1])
+
     def Snakes(self):
 
         num_of_snakes = int(input("No. of snakes on your board :"))
@@ -188,8 +192,9 @@ class Saanp_Seedhi:
               on the number 100. If they fails to do so, then the player needs
               to roll the die again in the next turn. For eg, if a player is
               on the number 98 and the die roll shows the number 4, then they
-              cannot move its piece until they get a 2 to win or 1 to be on
+              cannot move its piece until they gets a 2 to win or 1 to be on
               99th number.
+
         """
         print(message)
 
