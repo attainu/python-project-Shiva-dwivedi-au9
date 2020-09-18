@@ -1,7 +1,6 @@
 # python-project-Shiva-dwivedi-au9
 AttainU python project Repository
-# python-project-Shiva-dwivedi-au9
-AttainU python project Repository
+
 ## Introduction
 ### Welcome to Snakes and Ladders Dice Game user documentation.
 Snakes and Ladders, known originally as Moksha Patam, is an ancient Indian board game for two or more players regarded today as a worldwide classic. 
@@ -29,7 +28,7 @@ Snakes and Ladders is an ancient south Asian board game. Which consists 10 X 10 
      4. Two starts cannot be at the same position. 
      5. NO INFINITE LOOP: As the snakes and ladders are inputted by the user so this game ensures that the user doesn’t enter a ladder such that it coincides with the snake (head of snake coinciding with the end of ladder and tail of snake with the start of the ladder) and ends up in infinite loop.
      6. No. of snakes and ladder will be positive or else prompted.
-     7. The ladder and snake positions will be in the range of (0-100)
+     7. The ladder and snake positions will be in the range of (1-100)
 *	**Step 6:** If the current position of a player reaches the key in the dictionary of snake or ladder, the player automatically moves to its value.
 *	**Step 7:** Check for winner (whether current player scored 100 or not)
 *	**Step 8:** If winner is not found it’s next player’s turn (will repeat step 5 and step 7)
