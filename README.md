@@ -4,6 +4,8 @@ AttainU python project Repository
 ## Introduction
 ### Welcome to Snakes and Ladders Dice Game user documentation.
 Snakes and Ladders, known originally as Moksha Patam, is an ancient Indian board game for two or more players regarded today as a worldwide classic. 
+
+   ![Snake and Ladder](https://www.vervelogic.com/images/services/other/snake-and-ladders/snake-and-ladders.png)
 # Features
 Snakes and Ladders is an ancient south Asian board game. Which consists 10 X 10 scored gridded board and some snakes and ladders spotted on board. 100 is the maximum and winning score. Once any player get to that score, immediately declared as winner.
 ## Following are the features available in this game:-
